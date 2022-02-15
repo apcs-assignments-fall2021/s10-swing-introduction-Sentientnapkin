@@ -32,7 +32,7 @@ public class HelloWorldUser {
 
         button1.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent ae) {
-                field1.setText("Hi!");
+                field1.setText("Hi "+field1.getText()+"!");
             }
         });
 
